@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/ML_FLOW/mlruns/0/29e3d6502c3c4105b24898b0e19e7247/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29e3d6502c3c4105b24898b0e19e7247
+run_name: wistful-hen-757
+run_uuid: 29e3d6502c3c4105b24898b0e19e7247
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701179477912
+status: 1
+tags: []
+user_id: Shrian Singh
