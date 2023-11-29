@@ -78,10 +78,10 @@ if __name__ == "__main__":
         predictions = lr.predict(train_x)
         signature = infer_signature(train_x, predictions)
 
-        ## For Remote server only(DAGShub)
+        #For Remote server only(DAGShub)
 
-       # remote_server_uri="https://dagshub.com/krishnaik06/mlflowexperiments.mlflow"
-        #mlflow.set_tracking_uri(remote_server_uri)
+        remote_server_uri="https://dagshub.com/shrianshsingh20/ML_FLOW.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
